@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;   /* Para que 1rem = 10px */
+}
+
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    /* gap: 5px; */
+    padding: 16px;
+}
+
+.cabecera__logo {
+    width: 1.6rem;
+    height: auto;
+}
+
+.cabecera__titulo {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.6rem;
+    margin-left: 0px;
+}
+
+.navegacion {
+    display: none;
+}
+
+.cabecera__contacto {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+}
