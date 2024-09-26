@@ -11,21 +11,24 @@ html {
 .cabecera {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     /* gap: 5px; */
     padding: 16px;
 }
 
+.cabecera__logo-nombre {
+    display: flex;
+    flex-direction: row;
+}
+
 .cabecera__logo {
     width: 1.6rem;
-    height: auto;
 }
 
 .cabecera__titulo {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.6rem;
-    margin-left: 0px;
 }
 
 .navegacion {
