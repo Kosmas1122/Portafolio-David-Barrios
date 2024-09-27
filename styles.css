@@ -8,7 +8,14 @@
 }
 
 :root {
+    /* Fuentes: */
     --fuente1: Raleway;
+
+    /* Paleta de Colores: */
+    --color1: #FFF4EA;
+    --color2: #FADFA1;
+    --color3: #7EACB5;
+    --color4: #C96868;
 }
 
 html {
@@ -66,7 +73,8 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 450px;
+    height: auto;
+    padding-bottom: 10px;
 }
 
 .presentacion__foto {
@@ -77,15 +85,18 @@ html {
 .presentacion__titulo {
     margin: 15px 20px 15px 20px;
     font-family: var(--fuente1);
-    font-size: 2.2rem;
+    font-size: 2.4rem;
+    font-weight: 700;
     width: auto;
     text-align: center;
 }
 
 .presentacion__descripcion {
-    margin: 5px 20px 15px 20px;
+    margin: 5px 15px 15px 15px;
+    padding-bottom: 10px;
     font-family: var(--fuente1);
     font-size: 1.4rem;
+    line-height: 2.0rem;
     text-align: justify;
 }
 
@@ -112,4 +123,31 @@ html {
 .redes__img {
     margin-left: 4px;
     width: 1.6rem;
+}
+
+
+.sobre-mi {
+    margin: 5px 0px 15px 0px;
+    padding-bottom: 10px;
+    background-color: var(--color2);
+    height: auto;
+}
+
+.sobre-mi__titulo {
+    margin-left: 15px;
+    padding-top: 15px;
+    font-family: var(--fuente1);
+    font-size: 2.4rem;
+    font-weight: 700;
+    width: auto;
+    text-align: left;
+}
+
+.sobre-mi__descripcion {
+    margin: 15px;
+    font-family: var(--fuente1);
+    font-size: 1.4rem;
+    line-height: 2.0rem;
+    font-weight: 500;
+    text-align: justify;
 }
