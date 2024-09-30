@@ -307,33 +307,41 @@ html {
 }
 
 .experiencia {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
     padding-top: 15px;
     padding-bottom: 25px;
     background-color: var(--color2);
     font-family: var(--fuente1);
     width: auto;
-    text-align: left;
 }
 
 .experiencia__titulo {
     padding-top: 15px;
     padding-bottom: 25px;
-    font-family: var(--fuente1);
     font-size: 2.4rem;
     font-weight: bold;
-    width: auto;
     text-align: center;
 }
 
-.experiencia__Frontend {
-    font-family: var(--fuente1);
-    font-size: 1.8rem;
-    font-weight: bolder;
-    color: var(--color4);
-    width: auto;
-    text-align: left;
+.exp-Frontend, .exp-ingenieria {
+    display: flex;
+    flex-direction: column;
 }
 
-.experiencia__tarjetas {
-    
+.exp-Frontend__elemento {
+    border: 1px solid var(--color4);
+    border-radius: 10px;
+    height: 50px;
+    width: 80%;
+
+}
+
+h3 {
+    font-size: 1.8rem;
+    color: var(--color4);
+    text-align: left;
+    padding-bottom: 15px;
+
 }
