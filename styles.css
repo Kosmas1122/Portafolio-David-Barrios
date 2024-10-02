@@ -16,6 +16,8 @@
     --color2: #FADFA1;
     --color3: #7EACB5;
     --color4: #C96868;
+    --color5: #000000;
+
 }
 
 html {
@@ -328,18 +330,36 @@ html {
 .exp-Frontend, .exp-ingenieria {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 60px;
+    gap: 20px;
+
 }
 
-.exp-Frontend__elemento {
-    border: 1px solid var(--color4);
-    border-radius: 10px;
+.exp-Frontend__enlace {
     height: 50px;
-    width: 80%;
+    width: 220px; 
+}
 
+.exp-Frontend__boton {
+    border: 3px solid var(--color3);
+    background-color: var(--color3);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px var(--color5);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.exp-Frontend__boton:hover {
+    color: var(--color1);
+}
+
+.exp-Frontend__boton:active {
+    box-shadow: -1px -2px 10px var(--color5);
 }
 
 h3 {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
     color: var(--color4);
     text-align: left;
     padding-bottom: 15px;
