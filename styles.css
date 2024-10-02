@@ -257,7 +257,7 @@ html {
     height: auto;
     padding-top: 30px;
     padding-bottom: 40px;
-    background-color: var(--color1); 
+    background-color: var(--color2); 
 }
 
 .formacion__titulo {
@@ -314,7 +314,7 @@ html {
     flex-wrap: nowrap;
     padding-top: 15px;
     padding-bottom: 25px;
-    background-color: var(--color2);
+    background-color: var(--color1);
     font-family: var(--fuente1);
     width: auto;
 }
@@ -333,7 +333,6 @@ html {
     align-items: center;
     padding-bottom: 60px;
     gap: 20px;
-
 }
 
 .exp-Frontend__enlace {
@@ -359,9 +358,43 @@ html {
 }
 
 h3 {
-    font-size: 2.0rem;
+    font-size: 2.2rem;
     color: var(--color4);
     text-align: left;
     padding-bottom: 15px;
+}
 
+.exp-ingenieria__elemento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:5px;
+    padding-left: 15px;
+    line-height: 2.0rem;
+    font-weight: 400;
+    text-align: justify;
+
+}
+
+.exp-ingenieria__elemento span {
+    color: var(--color4);
+    font-weight: bolder;
+}
+
+.exp-ingenieria__elemento h4 {
+     font-size: 1.6rem;
+    align-self: self-start;
+    padding-right: 50px;
+}
+
+.exp-ingenieria__elemento h5 {
+    align-self: self-start;
+    color: var(--color3);
+    font-size: 1.2rem;
+}
+
+.exp-ingenieria__lista {
+    padding: 10px 50px 10px 20px;
+     font-size: 1.4rem;
+    line-height: 2.5rem;
 }
