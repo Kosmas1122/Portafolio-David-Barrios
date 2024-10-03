@@ -517,4 +517,9 @@ footer {
         gap: 15px;
         padding: 20px;
     }
+
+    .exp-Frontend__boton {
+        width: 300px;
+        height: 60px;
+    }
 }
