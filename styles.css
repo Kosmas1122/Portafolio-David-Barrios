@@ -544,6 +544,30 @@ footer {
 /* Desktops: */
 @media (min-width: 1440px) {
 
+    .navegacion {
+        display: block;
+    }
+
+    .navegacion__lista {
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+        font-family: var(--fuente1);
+        color: var(--color4);
+        font-size: 1.4rem;
+        font-weight: 700;
+        list-style: none;
+    }
+
+    .navegacion__elemento a {
+        text-decoration: none;
+    }
+
+    .navegacion__elemento:hover {
+        border-bottom: 2px solid var(--color4);
+        cursor: pointer;
+    }
+
     .presentacion {
         display: flex;
         flex-direction: row-reverse;
@@ -557,5 +581,15 @@ footer {
 
     .presentacion__descripcion {
         width: 600px;
+    }
+
+    .sobre-mi__descripcion {
+        margin-left: 50px;
+        margin-right: 50px;
+        font-family: var(--fuente1);
+        font-size: 1.4rem;
+        line-height: 2.0rem;
+        font-weight: 500;
+        text-align: justify;
     }
 }
