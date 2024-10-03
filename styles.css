@@ -21,7 +21,8 @@
 }
 
 html {
-    font-size: 62.5%;   /* Para que 1rem = 10px */
+    /* font-size: 62.5%; */   /* Para que 1rem = 10px */
+    font-size: 10px;   /* Para que 1rem = 10px */
 }
 
 .cabecera {
