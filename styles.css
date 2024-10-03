@@ -331,7 +331,8 @@ html {
 .exp-Frontend, .exp-ingenieria {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:start;
+    padding-left: 10px;
     padding-bottom: 60px;
     gap: 20px;
 }
@@ -348,6 +349,7 @@ html {
     box-shadow: 4px 4px 10px var(--color5);
     font-size: 1.8rem;
     font-weight: 700;
+    margin-left: 15px;
 }
 
 .exp-Frontend__boton:hover {
@@ -362,13 +364,14 @@ h3 {
     font-size: 2.2rem;
     color: var(--color4);
     text-align: left;
+    padding-left: 15px;
     padding-bottom: 15px;
 }
 
 .exp-ingenieria__elemento {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     gap:5px;
     padding-left: 15px;
     line-height: 2.0rem;
@@ -395,8 +398,8 @@ h3 {
 }
 
 .exp-ingenieria__lista {
-    padding: 10px 50px 0px 20px;
-     font-size: 1.4rem;
+    padding-left: 25px;
+    font-size: 1.4rem;
     line-height: 2.5rem;
 }
 
