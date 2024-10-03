@@ -77,11 +77,11 @@ html {
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
 }
 
 .presentacion__foto {
-    width: 120px;
+    width: 14rem;
     border-radius: 50%; /* Redondea la imagen */
 }
 
@@ -472,4 +472,20 @@ footer {
     font-size: 1.4rem;
     font-weight: 400;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    :root {
+        /* Paleta de Colores: */
+        --color1: #f5eded;
+        --color2: #e2dad6;
+        --color3: #7fa1c3;
+        --color4: #6482ad;
+        --color5: #000000;
+        --color6: #ffffff;
+    }
+
+    html {
+        font-size: 14px; /* Para que 1rem = 14px */
+    }
 }
