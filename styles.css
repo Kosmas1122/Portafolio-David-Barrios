@@ -215,14 +215,14 @@ html {
 .aficiones {
     height: auto;
     padding-top: 20px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     background-color: var(--color4); 
 }
 
 .aficiones__titulo {
     margin-left: 15px;
     padding-top: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     font-family: var(--fuente1);
     font-size: 2.4rem;
     font-weight: bold;
@@ -487,5 +487,9 @@ footer {
 
     html {
         font-size: 14px; /* Para que 1rem = 14px */
+    }
+
+    .aficiones__elemento {
+        width: 140px;
     }
 }
