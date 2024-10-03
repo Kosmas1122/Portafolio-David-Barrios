@@ -96,6 +96,8 @@ html {
 
 .presentacion__descripcion {
     margin: 5px 15px 15px 15px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 10px;
     font-family: var(--fuente1);
     font-size: 1.4rem;
@@ -482,6 +484,7 @@ footer {
 }
 
 
+/* Tablets: */
 @media (min-width: 768px) {
     :root {
         /* Paleta de Colores: */
@@ -534,5 +537,25 @@ footer {
     .contacto__boton {
         width: 120px;
         height: 45px;
+    }
+}
+
+
+/* Desktops: */
+@media (min-width: 1440px) {
+
+    .presentacion {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        gap: 20px;
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    .presentacion__descripcion {
+        width: 600px;
     }
 }
