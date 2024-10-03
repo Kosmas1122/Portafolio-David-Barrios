@@ -257,12 +257,12 @@ html {
 .formacion {
     height: auto;
     padding-top: 30px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     background-color: var(--color2); 
 }
 
 .formacion__titulo {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     font-family: var(--fuente1);
     font-size: 2.4rem;
     font-weight: bold;
@@ -491,5 +491,30 @@ footer {
 
     .aficiones__elemento {
         width: 140px;
+    }
+
+    .formacion__titulo {
+        padding-top: 30px;
+        padding-bottom: 50px;
+    }
+
+    .formacion__tarjetas {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        width: 100%;
+        
+    }
+
+    .formacion__elemento {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 210px;
+        height: 330px;
+        gap: 15px;
+        padding: 20px;
     }
 }
