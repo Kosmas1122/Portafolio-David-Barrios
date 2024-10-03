@@ -282,7 +282,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    width: 60%;
     height: auto;
     gap: 2px;
     
@@ -399,6 +399,7 @@ h3 {
 
 .exp-ingenieria__lista {
     padding-left: 25px;
+    padding-right: 15px;
     font-size: 1.4rem;
     line-height: 2.5rem;
 }
@@ -427,7 +428,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items:center;
-    gap: 10px;
+    gap: 20px;
 }
 
 .contacto__campo {
@@ -524,5 +525,10 @@ footer {
     .exp-Frontend__boton {
         width: 300px;
         height: 60px;
+    }
+
+    .contacto__boton {
+        width: 120px;
+        height: 45px;
     }
 }
