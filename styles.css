@@ -157,14 +157,14 @@ html {
 .skills {
     height: auto;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background-color: var(--color3); 
 }
 
 .skills__titulo {
     margin-left: 15px;
     padding-top: 15px;
-    padding-bottom: 25px;
+    padding-bottom: 35px;
     font-family: var(--fuente1);
     font-size: 2.4rem;
     font-weight: bold;
