@@ -296,10 +296,11 @@
 		<section class="contacto" id="Contacto"> 
 			<h2 class="contacto__titulo"> Contacto </h2>
 			<form class="contacto__form">
-				<input class="contacto__campo" type="text" placeholder="Nombre">
-				<input class="contacto__campo" type="text" placeholder="Email">
-				<textarea class="contacto__campo contacto__campo--textarea" type="text" placeholder="Mensaje"></textarea>
-				<button class="contacto__boton" type="submit">
+				<input id="nombre" class="contacto__campo" type="text" placeholder="Nombre">
+				<input id="email"  class="contacto__campo" type="email" placeholder="Email">
+				<input id="asunto" class="contacto__campo" type="text" placeholder="Asunto">
+				<textarea id="mensaje" class="contacto__campo contacto__campo--textarea" type="text" placeholder="Mensaje"></textarea>
+				<button class="contacto__boton" type="submit" onclick="validaFormulario(event);">
 					Enviar
 				</button>
 			</form>
@@ -309,5 +310,8 @@
 			<p>Desarrollado por David Barrios Escobar</p>
 			<p><b>2024</b></p>
 		</footer>
+
+		<!-- Script: -->
+		<script src="./app.js"></script>
 	</body>
 </html>
