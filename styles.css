@@ -462,13 +462,26 @@ h3 {
 
 .contacto__boton {
     width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.contacto__boton--active {
     border: 3px solid var(--color4);
     background-color: var(--color4);
     color: var(--color1);
-    border-radius: 5px;
     box-shadow: 3px 3px 5px var(--color5);
-    font-size: 1.8rem;
-    font-weight: 700;
+}
+
+.contacto__boton--disabled {
+    background-color: #cccccc;  /* Fondo gris claro */
+    color: #666666;             /* Texto gris oscuro */
+    opacity: 0.5;               /* Hacer que el botón sea un poco translúcido */
+    border: 1px solid #999999;  /* Borde más claro */
+    cursor: not-allowed;          /* Cursor de "no permitido" */
+    pointer-events: none;       /* Desactivar interacción con el botón */
 }
 
 .contacto__boton:hover {

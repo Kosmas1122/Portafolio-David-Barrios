@@ -295,12 +295,12 @@
 		<!-- Sección Contacto: -->
 		<section class="contacto" id="Contacto"> 
 			<h2 class="contacto__titulo"> Contacto </h2>
-			<form class="contacto__form">
+			<form id="formulario" class="contacto__form">
 				<input id="nombre" class="contacto__campo" type="text" placeholder="Nombre">
 				<input id="email"  class="contacto__campo" type="email" placeholder="Email">
 				<input id="asunto" class="contacto__campo" type="text" placeholder="Asunto">
 				<textarea id="mensaje" class="contacto__campo contacto__campo--textarea" type="text" placeholder="Mensaje"></textarea>
-				<button class="contacto__boton" type="submit" onclick="validaFormulario(event);">
+				<button id="btnEnviar" class="contacto__boton contacto__boton--disabled" type="submit" onclick="validaFormulario(event);" disabled>
 					Enviar
 				</button>
 			</form>
